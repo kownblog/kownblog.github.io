@@ -57,7 +57,7 @@
     opacity: 1;
 }
 
-.desk, .desk h4, .team-hover .s-link a {
+.desk, .desk h6, .team-hover .s-link a {
     text-align: right;
     color: white;
 	font-size: 30px;
