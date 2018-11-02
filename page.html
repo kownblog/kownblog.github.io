@@ -129,6 +129,47 @@ h1 {
 </style>
 
 <center><h1><b>K OWN_BLOG</b></h1></center></div>
+<!------------------------>
+<style>
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  z-index: 80;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 3px;
+}
+
+</style>
+</head>
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-hand-o-up" style="font-size:25px;color:black"></i>
+<br></button>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>	
 
 <!-----------------nex------------->
 <body>	
