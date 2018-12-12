@@ -1,5 +1,5 @@
 # Welcome 
-## To Official Site of K_ownblog(kauhsik_ownblog)
+## To Official Site of K_ownblog(kaushik_ownblog)
 ### Kaushik gupta production kownblog
 ---
 
