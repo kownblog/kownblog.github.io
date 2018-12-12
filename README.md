@@ -3,4 +3,4 @@
 ### This website is developed by Kaushik Gupta
 ---
 
-![alt text](https://kownblog.github.io/images/1.jpg "Logo Title Text 1")
+![alt text](https://kownblog.github.io/images/we.jpg "Logo Title Text 1")
