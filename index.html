@@ -122,17 +122,72 @@ li.dropdown {
 
 <div class="w3-content w3-section w3-animate-left" style="max-width:500px">
   <img class="mySlides" src="images/a.jpg" style="width:100%">
-  
-  
-</div>
+  </div>
+<!------------------new------------------->
+<style>
+body, html {
+  height:50%;
+  margin: 0;
+}
 
- <!------------------new------------------->
+.bgimg {
+  height:50%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+}
+hr {
+  margin: auto;
+  width: 40%;
+}
+</style>
+<body>
+<center>
+<div class="bgimg">
+  <div class="middle">
+    <h2 style="color: black">Coming soon</h2><h2><i style="color: #003cb3;margin-top:20px;font-style:oblique">New post related to basic computer tricks,servers and websites!!</i></h2>
+    <i class="material-icons" style="font-size:25px;color:red">sentiment_very_satisfied</i>
+    <hr>
+    <p id="demo" style="font-size:30px;color:lawngreen;overflow: hidden; width:100%;margin-top:30px;background-color: black; "></p>
+  </div>
+  </div>
+</div></center>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 15, 2019 00:00:00").getTime();
+
+// Update the count down every 1 second
+var countdownfunction = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+  
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+  
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+  
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(countdownfunction);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
  
 
- 
- 
-<div>
-<center><h2><i style="color: #003cb3;margin-top:20px;font-style:oblique">Comming soon new post related to information for computer,server & website :)</i></h2></center></div>
 
 
 
