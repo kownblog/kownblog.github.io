@@ -22,6 +22,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">	
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
@@ -79,6 +80,30 @@ li.dropdown {
     display: block;
 }
 </style>
+<style>
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	left:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+	z-index:100;
+}
+.my-float{
+	margin-top:16px;
+}
+a.whatsapp {
+	cursor: pointer;
+}
+</style>	
+	
+	
 </head>
 <body>
 
@@ -237,10 +262,19 @@ function carousel() {
     if (myIndex > x.length) {myIndex = 1}    
     x[myIndex-1].style.display = "block";  
     setTimeout(carousel, 3000); // Change image every 2 seconds
+
+    waCurrentPage = function() {
+    return encodeURI("whatsapp://send?text=Check this out: " + 'http://' + window.location.hostname + window.location.pathname);
+    }
 }
 </script>
  
 
-
+<a href="javascript:window.location=waCurrentPage();" class="whatsapp float">
+<i class="fab fa-whatsapp my-float"></i>
+</a>
+	
+	
+	
 </body>
 </html>
