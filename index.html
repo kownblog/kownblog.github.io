@@ -262,14 +262,15 @@ function carousel() {
     if (myIndex > x.length) {myIndex = 1}    
     x[myIndex-1].style.display = "block";  
     setTimeout(carousel, 3000); // Change image every 2 seconds
-
-    waCurrentPage = function() {
-    return encodeURI("whatsapp://send?text=Check this out: " + 'http://' + window.location.hostname + window.location.pathname);
-    }
 }
 </script>
  
-
+<script>
+    waCurrentPage = function() {
+    return encodeURI("whatsapp://send?text=Check this out: " + 'http://' + window.location.hostname + window.location.pathname);
+    }
+</script>
+	
 <a href="javascript:window.location=waCurrentPage();" class="whatsapp float">
 <i class="fab fa-whatsapp my-float"></i>
 </a>
