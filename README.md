@@ -3,4 +3,4 @@
 ### Kaushik gupta production kownblog
 ---
 
-(https://kownblog.github.io/images/we.jpg "Logo Title Text 1")
+(https://kownblog.github.io/images/r1.jpg "Logo Title Text 1")
