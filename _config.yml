@@ -1,0 +1,4 @@
+title: KOWNBLOG
+
+plugins:
+  -jekyll-sitemap
