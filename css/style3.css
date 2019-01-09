@@ -1,0 +1,237 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+  font-family: 'Lato', sans-serif;
+  padding: 0px 5px 5px 5px;
+  font-size: 18px;
+  margin: 0;
+  color: white;
+  background-image:linear-gradient(rgba(1,1,50,0.5),rgba(1,1,50,0.5)),url(images/7.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*#0F294C*/
+
+.menu {
+	width: 100%;
+	height: 10%;
+	background-color:
+}
+		
+.rowsetting h1{
+	margin-top:00px;
+	font-weight: bolder;
+	font-size: 25px;
+	color: orange;
+
+}
+.rowsetting p{
+	padding-top:00px 00px !important;
+	color:black; 
+	font-size: 1.2em;
+	padding-left: 3px;
+	margin-top:-10px;
+}
+.rowsetting i8{
+	padding-left:center;
+}
+
+.music {
+    padding-top: 9px;   
+    width: 100%;
+	background-color:;
+	height: 10%;
+	font-color:black;
+
+/*/// slateblue/*/
+	}
+	
+.website a{
+	font-size:20px;
+	background-color:black;
+	color:white;
+}
+.menu h3{
+	font-size:70px;
+
+}
+.rowsetting h2{
+	margin-top:px;
+	font-weight: bolder;
+	font-size: 25px;
+	color:black; 
+	background-color:;
+	width:100%;
+	height:10%;
+	font:Monotype Corsiva;
+
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#111;
+    overflow-x: hidden;
+    transition: 0.0s;
+    padding-top: 10px;
+}
+
+.sidenav a {
+    padding: 2px 8px 8px 30px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181 ;          
+    display: block;
+    transition: 0.2s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;  
+}
+
+.sidenav .active{
+	color:red;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 30px;
+    margin-left: 00px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 20px;}
+}
+
+
+
+/********************Social**********/
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-instagram {
+	color:white;
+	background-color: #bc2a8d;
+	
+}
+
+.fa-facebook {
+  color: white;
+  background-color:#3b5999; 
+}
+
+.fa-twitter{
+	color: white;
+	background-color: #55acee ;
+}
+/*//////////iamges settings posts//////////////////////////////*/
+.slideshow-container {
+  max-width: 400px;
+  position: relative;
+  margin: auto;
+  height: auto;
+}
+
+img.align-center{
+  display: block;
+  margin: 0px auto;
+}
+img.medium{
+  width: 300px;
+  height: 150px;
+}
+
+.responsive{
+ width: 100%;
+ max-width:100%;
+ height: 130px;
+}
+ 
+.images{
+width: 70%;
+max-width:70%;
+height:auto;
+}
+
+/*-----whatsapp-------/*/
+.float{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  left:20px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+    font-size:30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.my-float{
+  margin-top:16px;
+}
+a.whatsapp {
+  cursor: pointer;
+}
+
+/*//////////////button//////////////////*/
+.center {
+  text-align: center;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 1px;
+}
+
+.pagination a.active {
+  background-color: black;
+  color: white;
+  border: 1px solid ;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+/*///////////////////////////black /////////////////////*/
+.position p {
+  border-left: 6px solid royalblue;
+  background-color: black;
+}
