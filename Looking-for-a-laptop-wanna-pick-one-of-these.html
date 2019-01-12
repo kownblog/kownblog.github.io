@@ -30,95 +30,101 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">  
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link href='https://fonts.googleapis.com/css?family=Black Ops One' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	
 </head>
+<body>
 
 <!------------------------------------------- MENU ------------------------------------->
+
 <style>
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
 }
 
-li {
-    float: left;
+.overlay-content {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
 }
 
-li a, .dropbtn {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
 }
 
-li.dropdown {
-    display: inline-block;
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-    display: block;
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
 }
 </style>
 </head>
-<body>
 
-<ul>
 
-  <li><a href="index.html">Home</a></li>
- 
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+
+<a href="index.html"><i class="fa fa-home fa-fw"style="font-size:20px;color:white"></i><u>Home</u></a>
+<a href="shop.html"><i class="fa fa-map-marker" style="font-size:20px;color:red"></i><u>My Shop</u></a>
+<a href="c++.html"><i class="fa fa-desktop"  style="font-size:20px;color:#B22222"></i><u>C and C++ Program</u></a>
+<a href="https://www.facebook.com/kownblog/""><i class="fa fa-facebook-official" style="font-size:20px;color:#8b9dc3"></i><u>Like Fb page</u></a>
+<a href="k.html"><i class="fa fa-user-circle" style="font-size:20px;color:#CBCDCA"></i><u>About-blog</u></a>
+<a href="feedback.html"><i class="fa fa-envelope" style="font-size:20px;color:#F0D9BE"></i><u>feedback</u></a>
+
+  
   
 
-  <li class="dropdown">
-    <a href="javascript:void(0)" class="dropbtn">MENU</a>
-    <div class="dropdown-content">
-
- <a href="k.html"><i class="   fa fa-handshake-o" style="font-size:20px;color:black"></i><u>About-blog</u></a>       
-
- <a href="shop.html"><i class="fa fa-map-marker" style="font-size:20px;color:red"></i><u>My Shop</u></a>  
-
-
-
-
-
-<a href="c++.html"><i class="fa fa-desktop"  style="font-size:20px;color:#B22222"></i><u>C and C++ Programming</u></a>
-<a href="feedback.html"><i class="fa fa-envelope" style="font-size:20px;color:blue"></i><u>feedback</u></a>
+  </div>
 </div>
-  </li>
-</ul>
+<center>
+<style>
+}
+</style>
+<p style="font-size:30px;cursor:pointer;color:#D9EEE9;font-family:Black Ops One;color:#D9EEE9;background-color:black;margin-top: -1px"  onclick="openNav()">&#9776;Kownblog</p>
+</center>
 
-<!-------------heading---------------------------------->
-<div>
-<div class="w3-display-topright">
-<center><a href="index.html"><h2 style="font-family:Black Ops One;color:white;font-size:25px;margin-right: 10px">K_OWNBLOG</h2></a></center></div>
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
 
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+     
 <!--------------12 posts------------------------------------------>
 <div>
    <body>
