@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "f9b4bee0-fb1b-49c6-9837-9f2747aa0d9d",
+      autoRegister: false,
+      notifyButton: {
+        enable: true,
+      },
+    });
+  });
+</script>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({
@@ -26,11 +39,11 @@
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
+  <link rel="manifest" href="/manifest.json" />		
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">  
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
- <link href='https://fonts.googleapis.com/css?family=Black Ops One' rel='stylesheet'>
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Black Ops One' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	
 </head>
@@ -200,30 +213,28 @@ s.setAttribute('data-timestamp', +new Date());
 
 <!---------------------------------footer------------------------------------------------------->
     <style>
-    a {
+  
+#footer
+  {
+     background-color: black;
+     color: #efe5d0;
+     text-align: center;
+
+  }
+  a {
     text-decoration: none;
     color: #809fff;
 
 }   
-    #copyright
-    {
-        overflow: hidden;
-        padding: 1em;
-        border-top: 1px solid rgba(255,255,255,0.08); 
-    width: 100%;
-    margin-top: 10px;
-    background-color: black;
-    }
-    
-    #copyright p1
-    {
-        font-size: -1em;
-        color: rgba(255,255,255,0.5);
-    }</style>
+  </style>
 
-<div id="copyright" class="container">
-<center><p1>k_ownblog &copy 2018-2020 <a href="LICENSE.text">MIT License</a>|<a href="privacy.html">privacy policy</a>|<a href="contact.html">contact us</a> </p1></center>
-</div>
+
+<div id="footer">
+<a href="LICENSE.text" style="margin-right: 10px">MIT License</a><a href="privacy.html" style="margin-right: 10px;margin-left: 10px">privacy policy</a><a href="contact.html" style="margin-right: 10px;margin-left: 10px">contact us</a>
+  <br>
+  k_ownblog &copy 2019
+  </div>
+
 
 <!------------------------------- Whatsapp SCRIPTS --------------------------------->
 <script>
