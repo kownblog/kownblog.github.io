@@ -3,4 +3,9 @@ title: computer basics
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-archives
+  - jekyll-paginate
+  - jemoji
 
