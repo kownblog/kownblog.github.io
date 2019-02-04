@@ -2,4 +2,5 @@ title: computer basics
 
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
 
