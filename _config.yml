@@ -1,7 +1,5 @@
----
-title:computer basics
-
+title: KOWNBLOG
 
 plugins:
-- jekyll-sitemap
+  - jekyll-sitemap
 
