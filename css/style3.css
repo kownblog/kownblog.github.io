@@ -9,8 +9,8 @@ body{
   padding: 0px 5px 5px 5px;
   font-size: 18px;
   margin: 0;
-  color: white;
-  background-image:linear-gradient(rgba(1,1,50,0.5),rgba(1,1,50,0.5)),url(images/7.jpg);
+  color: black;
+  /*background-image:linear-gradient(rgba(1,1,50,0.5),rgba(1,1,50,0.5)),url(images/7.jpg);/*/
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
