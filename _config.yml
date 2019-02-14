@@ -1,11 +1,6 @@
-title: Basic computer knowledge:
+title: Basic computer knowledge
 
 
 plugins:
-- jekyll-paginate
-- jemoji
-- jekyll-archives
 - jekyll-sitemap
-- jekyll-feed
-- jekyll-seo-tag
-- jekyll-redirect-from
+
