@@ -237,10 +237,10 @@ a.whatsapp {
   background-color: black;
 }
 
-.hr
+hr
 {
   display:block;
   border:none;	
   height:5px;
-  background-image:url('images/hr.jpg');
+  background-color:black;
 } 
