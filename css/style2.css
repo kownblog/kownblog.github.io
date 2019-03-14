@@ -82,3 +82,12 @@ body{
  height: 200px;
 }
 
+
+.hr
+{
+  display:block;
+  border:none;	
+  height:5px;
+  background-image:url('images/hr.jpg');
+} 
+
